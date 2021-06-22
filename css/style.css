@@ -21,3 +21,29 @@ body{
 .header-row img{
 vertical-align: middle;
 }
+
+.container-top{
+    max-width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+}
+
+.button-task, .button-section{
+    padding: 8px;
+    border-radius: 5px;
+    
+}
+.button-task{
+    background-color: #47adf1;
+    border-color: #47adf1;
+    color: white;
+}
+
+.button-section{
+    background-color: white;
+    color: #d0d5d9;
+    border-color: #d0d5d9;
+}
