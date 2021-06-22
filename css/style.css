@@ -25,10 +25,10 @@ vertical-align: middle;
 .container-top{
     max-width: 80%;
     margin: auto;
-    border: 1px solid black;
     margin-top: 30px;
     padding: 10px;
     background-color: white;
+    border-radius: 3px;
 }
 
 .button-task, .button-section{
@@ -46,4 +46,28 @@ vertical-align: middle;
     background-color: white;
     color: #d0d5d9;
     border-color: #d0d5d9;
+}
+
+.container-bottom{
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    margin-top: 3px;
+    border-radius: 3px;
+}
+
+.list{
+    list-style: none;
+}
+
+.symbol{
+    background-color white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #78cab7;
+    color: #78cab7;
+    border-radius: 50%;
 }
