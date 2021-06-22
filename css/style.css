@@ -4,3 +4,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #f6f8f9;
+}
+
+.header-row{
+    background-color: white;
+    padding: 10px;
+}
+
+.header-title{
+    display: inline-block;
+    vertical-align: middle;
+}
+.header-row img{
+vertical-align: middle;
+}
