@@ -25,14 +25,24 @@ body{
 vertical-align: middle;
 }
 
-.container-top{
+
+.container-top, .container-bottom{
     max-width: 70%;
     margin: auto;
-    margin-top: 30px;
-    padding: 10px;
     background-color: white;
     border-radius: 3px;
     padding-left: 50px;
+
+}
+
+
+.container-top{
+    margin-top: 30px;
+    padding: 10px;
+}
+.container-bottom{
+    margin-top: 3px;
+    padding-top: 50px;
 }
 
 .button-task, .button-section{
@@ -52,100 +62,61 @@ vertical-align: middle;
     border-color: #d0d5d9;
 }
 
-.container-bottom{
-    max-width: 70%;
-    margin: auto;
-    background-color: white;
-    margin-top: 3px;
-    border-radius: 3px;
-    padding-left: 50px;
-    padding-top: 50px;
-
-}
 
 .list{
     list-style: none;
 }
 
-.symbol{
+.symbol, .symbol-2 {
     background-color white;
-    text-align: center;
-    line-height: 50px;
-    border: 1px solid #78cab7;
-    color: #78cab7;
     border-radius: 50%;
     font-size: 10px;
     padding: 2px;
+    line-height: 40px;
+}
+
+.symbol{
+    border: 1px solid #78cab7;
+    color: #78cab7;
 }
 
 .symbol-2{
-    background-color white;
-    text-align: center;
-    line-height: 50px;
+    
     border: 1px solid #eb564e;
     color: #eb564e;
-    border-radius: 50%;
-    font-size: 10px;
-    padding: 2px;
+}
+
+.label-blue, .label-green, .label-lightgreen,
+.label-orange, .label-pink, .label-purple{
+    color: white;
+    padding: 4px 6px;
+    border-radius: 10px;
+    font-size: 12px; 
 }
 
 
 .label-blue{
     background-color: #45abea;
-    color: white;
-    padding: 4px 6px;
-    border-radius: 10px;
-    font-size: 12px;
 }
 
 .label-purple{
     background-color:#9c72e4;
-    color: white;
-    padding: 4px 6px;
-    border-radius: 10px;
-    font-size: 12px;
 }
 
 .label-green{
     background-color:#64c0a9;
-    color: white;
-    padding: 4px 6px;
-    border-radius: 10px;
-    font-size: 12px;
 }
 
 .label-orange{
     background-color:#f29e33;
-    color: white;
-    padding: 4px 6px;
-    border-radius: 10px;
-    font-size: 12px;
 }
 
 
 .label-pink{
     background-color:#db71a9;
-    color: white;
-    padding: 4px 6px;
-    border-radius: 10px;
-    font-size: 12px;
 }
 
 .label-lightgreen{
     background-color:#c0d452;
-    color: white;
-    padding: 4px 6px;
-    border-radius: 10px;
-    font-size: 12px;
 }
 
-.test{
-    color: tomato;
-    font-size: 13px;
-    background-color: yellow;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    padding: 4px;
-}
