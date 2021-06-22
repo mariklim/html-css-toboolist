@@ -71,3 +71,11 @@ vertical-align: middle;
     color: #78cab7;
     border-radius: 50%;
 }
+
+.label-blue{
+    background-color: #45abea;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 10px;
+    font-size: 12px;
+}
