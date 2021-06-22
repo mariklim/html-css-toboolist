@@ -117,3 +117,21 @@ vertical-align: middle;
     border-radius: 10px;
     font-size: 12px;
 }
+
+
+.label-pink{
+    background-color:#db71a9;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.label-lightgreen{
+    background-color:#c0d452;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
