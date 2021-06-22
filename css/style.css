@@ -7,11 +7,14 @@
 
 body{
     background-color: #f6f8f9;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .header-row{
     background-color: white;
     padding: 10px;
+    font-size: 20px;
 }
 
 .header-title{
@@ -23,12 +26,13 @@ vertical-align: middle;
 }
 
 .container-top{
-    max-width: 80%;
+    max-width: 70%;
     margin: auto;
     margin-top: 30px;
     padding: 10px;
     background-color: white;
     border-radius: 3px;
+    padding-left: 50px;
 }
 
 .button-task, .button-section{
@@ -49,12 +53,14 @@ vertical-align: middle;
 }
 
 .container-bottom{
-    max-width: 80%;
+    max-width: 70%;
     margin: auto;
-    padding: 10px;
     background-color: white;
     margin-top: 3px;
     border-radius: 3px;
+    padding-left: 50px;
+    padding-top: 50px;
+
 }
 
 .list{
