@@ -70,10 +70,48 @@ vertical-align: middle;
     border: 1px solid #78cab7;
     color: #78cab7;
     border-radius: 50%;
+    font-size: 15px;
 }
+
+.symbol-2{
+    background-color white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #eb564e;
+    color: #eb564e;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
 
 .label-blue{
     background-color: #45abea;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.label-purple{
+    background-color:#9c72e4;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.label-green{
+    background-color:#64c0a9;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.label-orange{
+    background-color:#f29e33;
     color: white;
     padding: 4px 6px;
     border-radius: 10px;
