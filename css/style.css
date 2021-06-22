@@ -69,26 +69,24 @@ vertical-align: middle;
 
 .symbol{
     background-color white;
-    width: 50px;
-    height: 50px;
     text-align: center;
     line-height: 50px;
     border: 1px solid #78cab7;
     color: #78cab7;
     border-radius: 50%;
-    font-size: 15px;
+    font-size: 10px;
+    padding: 2px;
 }
 
 .symbol-2{
     background-color white;
-    width: 50px;
-    height: 50px;
     text-align: center;
     line-height: 50px;
     border: 1px solid #eb564e;
     color: #eb564e;
     border-radius: 50%;
-    font-size: 15px;
+    font-size: 10px;
+    padding: 2px;
 }
 
 
@@ -141,3 +139,13 @@ vertical-align: middle;
     font-size: 12px;
 }
 
+.test{
+    color: tomato;
+    font-size: 13px;
+    background-color: yellow;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    padding: 4px;
+}
